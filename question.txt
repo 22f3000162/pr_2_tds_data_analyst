@@ -1,0 +1,11 @@
+Use `sales.csv` + `products.csv` + `suppliers.csv`.
+
+Return a JSON object with keys:
+- `revenue_at_risk`: number
+- `category_risk_breakdown`: dictionary {category: % revenue at risk}
+- `bar_chart`: base64 PNG string under 100kB
+
+Answer:
+1. If the top supplier fails, how much revenue is at risk?
+2. Which categories would be most impacted?
+3. Plot a bar chart of revenue at risk by category.

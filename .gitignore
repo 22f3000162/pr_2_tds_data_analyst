@@ -1,0 +1,10 @@
+.env
+.env.template
+.python-version
+Dockerfile
+entrypoint.sh
+index.html
+Procfile
+pyproject.toml
+uv.lock
+DEMPLOYMENT_GUIDE.md
